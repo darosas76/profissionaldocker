@@ -1,0 +1,32 @@
+# docker build -t darosas76/conversao-temperatura:v2 .
+# docker login
+# docker push darosas76/conversao-temperatura:v2
+# docker tag darosas76/conversao-temperatura:v2 darosas76/conversao-temperatura:latest
+# docker image ls
+# docker push darosas76/conversao-temperatura:latest
+# docker-compose up -d
+# http://localhost:8080/
+
+
+
+
+# docker build -t darosas76/conversao-distancia:v1 .
+# docker login
+# docker push darosas76/conversao-distancia:v1
+# docker tag darosas76/conversao-distancia:v1 darosas76/conversao-distancia:latest
+# docker image ls
+# docker push darosas76/conversao-distancia:latest
+# docker-compose up -d
+# http://localhost:5000/
+
+
+
+# docker build -t darosas76/conversao-peso:v1 .
+# docker login
+# docker push darosas76/conversao-peso:v1
+# docker tag darosas76/conversao-peso:v1 darosas76/conversao-peso:latest
+# docker image ls
+# docker push darosas76/conversao-peso:latest
+# cd conversao-peso/
+# docker-compose up -d
+# http://localhost:8000/

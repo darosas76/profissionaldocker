@@ -1,0 +1,9 @@
+
+docker build -t darosas76/rotten-potatoes:v1 .
+docker login
+docker push darosas76/rotten-potatoes:v1
+docker tag darosas76/rotten-potatoes:v1 darosas76/rotten-potatoes:latest
+docker image ls
+docker push darosas76/rotten-potatoes:latest
+docker-compose up -d
+http://localhost:5000/
